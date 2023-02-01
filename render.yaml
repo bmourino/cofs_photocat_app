@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mysite
+    env: python
+    buildCommand: "pip install bokeh"
+    startCommand: "bokeh serve --show cofs_photocatalysis.py"
