@@ -3,5 +3,5 @@ services:
     name: mysite
     env: python
     plan: free
-    buildCommand: "pip install bokeh"
+    buildCommand: "pip install bokeh pandas"
     startCommand: "bokeh serve --show cofs_photocatalysis.py"
