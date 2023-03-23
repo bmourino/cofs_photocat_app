@@ -4,4 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "bokeh serve --show cofs_photocatalysis.py --allow-websocket-origin=mysite-m3rn.onrender.com"
+    startCommand: "bokeh serve --show cofs_photocatalysis.py --allow-websocket-origin=mysite-c05b.onrender.com"
